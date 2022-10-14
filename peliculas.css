@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+h1 {
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+    color: brown;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+main form h2 {
+    color: white;
+    font-size: 25px;
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
+}
+main form {
+    padding: 50px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+.form-label, .form-check-label, .elementosFooter p{
+    color: rgb(97, 95, 95);
+}
+main form .btn{
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: 65px;
+}
+.recuerdame a, .suscribete a{
+    text-decoration: none;
+    color: white;
+}
+
+.suscribete p {
+    color: white;
+    margin: 0px 10px;
+}
+.suscribete{
+    margin-top: 20px;
+}
+hr{
+    height: 5px;
+    color: aliceblue;
+}
+
+footer {
+    padding: 50px;
+}
+.elementosFooter {
+    width: 100%;
+   flex-wrap: wrap;
+}
+.elementosFooter div {
+    width: 100%;
+}
+.elementosFooter a {
+    text-decoration: none;
+    color: grey;
+}
+
+@media (min-width: 700px){
+    h1 {
+        
+       
+     font-size: 40px;
+     font-weight: 600px;
+     padding-bottom: 20px;
+       
+    }
+    form {
+       width: 50%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 100px;
+       background-color: rgba(0, 0, 0, 0.833);
+      
+       
+    }
+    body {
+        background-image: url('./imagenes/fondo.png');
+    }
+    footer{
+        background-color: rgba(0, 0, 0, 0.833);
+    }
+    hr{
+        display: none;
+    }
+    .btn {
+        margin-top: 30px;
+    }
+}
